@@ -3,6 +3,16 @@
 // ==================================== */
 
 :root {
+  --backgroundcolor: #ffe7c9;
+  --orange: #f04c22;
+  --medium-orange: #f88b13;
+  --ginger-light: #f7ede2;
+  --ginger-normal: #f5cac3;
+  --ginger-dark: #c48102;
+  --brown: #504746;
+  --rose-peche: #c07c8f;
+  --brun-matte: #361710;
+  --light-orange: #ffca03;
 }
 
 /* ====================================
@@ -18,6 +28,7 @@
 html {
   font-size: 16px;
   font-family: coolvetica;
+  background-color: var(--backgroundcolor);
 }
 
 body {
@@ -43,3 +54,7 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+a {
+  text-decoration: none;
+}
