@@ -1,0 +1,26 @@
+.intro {
+  text-align: center;
+  color: var(--backgroundcolor);
+  font-size: 16px;
+  font-weight: 100;
+  padding: 63px 17px;
+}
+
+.wrapper-intro {
+  background-color: var(--orange);
+}
+
+.slogan-intro {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .intro {
+    font-size: 30px;
+    padding: 69px 260px;
+  }
+  .slogan-intro {
+    font-size: 50px;
+  }
+}
