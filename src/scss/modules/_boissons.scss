@@ -1,0 +1,65 @@
+h2 {
+  font-size: 25px;
+  line-height: 30px;
+  color: var(--orange);
+  margin-bottom: 52px;
+}
+
+.img-boissons {
+  max-width: 400px;
+}
+
+.ginger-card,
+.matte-card,
+.limonade-card {
+  background-color: var(--ginger-dark);
+  padding: 0 0 28px 28px;
+  color: white;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 36px;
+  margin-bottom: 81px;
+}
+
+.limonade-card {
+  margin-bottom: 30px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 37px;
+}
+
+.matte-card {
+  background-color: var(--brun-matte);
+}
+
+.limonade-card {
+  background-color: var(--light-orange);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.container-boissons {
+  margin-bottom: 87px;
+}
+
+@media (min-width: 768px) {
+  h2 {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 65px;
+  }
+
+  .img-boissons {
+    max-width: 350px;
+  }
+
+  .container-boissons {
+    margin-bottom: 169px;
+  }
+}
