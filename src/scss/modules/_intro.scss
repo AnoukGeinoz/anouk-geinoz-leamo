@@ -3,7 +3,8 @@
   color: var(--backgroundcolor);
   font-size: 16px;
   font-weight: 100;
-  padding: 63px 17px;
+  line-height: 19px;
+  padding: 63px 17px 207px;
 }
 
 .wrapper-intro {
@@ -15,12 +16,38 @@
   font-weight: bold;
 }
 
+.img-intro-desktop {
+  display: none;
+}
+
+.img-intro {
+  padding: 0 15px;
+  position: relative;
+  top: -165px;
+}
+
 @media (min-width: 768px) {
   .intro {
     font-size: 30px;
-    padding: 69px 260px;
+    padding: 69px 260px 89px;
+    line-height: 36px;
   }
   .slogan-intro {
     font-size: 50px;
+    line-height: 60px;
+  }
+
+  .img-intro-mobile {
+    display: none;
+  }
+
+  .img-intro-desktop {
+    display: inline;
+  }
+
+  .img-intro {
+    position: relative;
+    top: -60px;
+    padding: 0px 160px;
   }
 }
