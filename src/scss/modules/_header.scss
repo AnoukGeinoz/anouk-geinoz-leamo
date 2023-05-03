@@ -26,7 +26,11 @@
 }
 
 .img-header img {
-  max-width: 100%;
+  max-width: 100vw;
+}
+
+.img-header {
+  padding: 0;
 }
 
 hr {
@@ -44,6 +48,6 @@ hr {
   }
 
   .img-header img {
-    max-width: 100%;
+    max-width: 50vw;
   }
 }
