@@ -1,4 +1,5 @@
-.button {
+.button,
+.button-light {
   width: 191px;
   height: 50px;
   background-color: var(--orange);
@@ -11,8 +12,14 @@
   border-radius: 44px;
 }
 
+.button-light {
+  background-color: var(--backgroundcolor);
+  color: var(--orange);
+}
+
 @media (min-width: 768px) {
-  .button {
+  .button,
+  .button-light {
     width: 375px;
     height: 90px;
     font-size: 34px;
