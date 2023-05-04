@@ -1,5 +1,6 @@
 .container-cocktails h2 {
   margin-bottom: 11px;
+  text-align: center;
 }
 
 .tonic-card,
@@ -30,6 +31,12 @@ h3 {
   background-image: url(../img/img-frappe.webp);
 }
 
+.more-infos {
+  background-image: url(../img/img-eau.webp);
+  background-size: cover;
+  padding: 18px 0;
+}
+
 @media (min-width: 768px) {
   .tonic-card,
   .frappe-card {
@@ -46,5 +53,9 @@ h3 {
     font-size: 30px;
     line-height: 36px;
     font-weight: 300;
+  }
+
+  .more-infos {
+    padding: 70px 0;
   }
 }
