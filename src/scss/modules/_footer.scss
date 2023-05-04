@@ -18,6 +18,60 @@
   margin-bottom: 40px;
 }
 
+.leamo-footer-container {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
 .container-alterfood {
   border-bottom: solid 0.5px white;
+  padding-bottom: 49px;
+  border-left: none;
+  margin-bottom: 23px;
+}
+
+.icones {
+  padding-right: 19px;
+}
+
+.leamo-footer-container a {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    font-size: 20px;
+    line-height: 24px;
+    padding: 84px 0 37px;
+  }
+
+  .footer-container img {
+    width: 310px;
+  }
+
+  .container-alterfood {
+    border-bottom: none;
+    border-left: solid 0.5px white;
+    padding-left: 33px;
+    margin-bottom: none;
+  }
+
+  .leamo-footer-container {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .leamo-footer-container a {
+    padding-right: 27px;
+  }
+
+  .br-footer {
+    display: none;
+  }
+
+  .icones {
+    max-width: 70px;
+    padding-right: 27px;
+  }
 }
