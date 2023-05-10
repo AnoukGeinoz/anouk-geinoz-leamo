@@ -10,6 +10,19 @@
   text-align: center;
   padding: 16px 12px;
   border-radius: 44px;
+  transition: border 0.5, background-color 0.5, color 0.5;
+}
+
+.button:hover {
+  border: 2px solid var(--orange);
+  background-color: transparent;
+  color: var(--orange);
+}
+
+.button-light:hover {
+  border: 2px solid var(--backgroundcolor);
+  color: var(--backgroundcolor);
+  background-color: transparent;
 }
 
 .button-light {
