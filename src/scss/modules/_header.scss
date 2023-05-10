@@ -27,6 +27,7 @@
 .container-header img {
   max-width: 70px;
   margin-bottom: 40px;
+  max-width: 100px;
 }
 
 .img-header img {
@@ -47,7 +48,13 @@ hr {
 @media (min-width: 768px) {
   .nav {
     font-size: 40px;
+    line-height: 48px;
   }
+
+  hr {
+    margin-bottom: 57px;
+  }
+
   .container-header img {
     max-width: 150px;
   }

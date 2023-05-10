@@ -14,6 +14,14 @@
   margin-bottom: 27px;
 }
 
+.img-footer {
+  transition: transform 0.2s;
+}
+
+.img-footer:hover {
+  transform: scale(1.05);
+}
+
 .footer-container p {
   margin-bottom: 40px;
 }
