@@ -72,6 +72,15 @@
   transform: scale(1.05);
 }
 
+li {
+  list-style-type: none;
+  margin-bottom: 12px;
+}
+
+.links-desktop {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .footer-container {
     font-size: 20px;
@@ -99,8 +108,12 @@
     padding-right: 27px;
   }
 
-  .br-footer {
+  ul {
     display: none;
+  }
+
+  .links-desktop {
+    display: inline;
   }
 
   .icones {
