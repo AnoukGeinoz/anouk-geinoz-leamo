@@ -47,6 +47,16 @@ hr {
   margin-bottom: 13.5px;
 }
 
+.button-menu {
+  width: 100%;
+  border-bottom: solid 1px var(--orange);
+  text-align: center;
+  color: var(--orange);
+  padding: 19px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
 @media (max-width: 240px) {
   .img-header img {
     max-width: none;
