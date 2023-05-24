@@ -3,6 +3,13 @@
   font-weight: 400;
   font-size: 20px;
   padding-left: 68px;
+  a {
+    transition: color 0.5s;
+  }
+}
+
+.nav a:hover {
+  color: #9e3013;
 }
 
 .language-case {
