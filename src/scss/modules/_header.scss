@@ -8,8 +8,8 @@
 .language-case {
   background-color: var(--orange);
   width: 60px;
-  height: 22px;
-  padding: 3px 10px;
+  height: 30px;
+  padding: 6px 10px;
   border-radius: 32px;
   color: var(--backgroundcolor);
   font-size: 16px;
@@ -110,5 +110,15 @@ hr {
 
   .nav img {
     margin-bottom: 85px;
+  }
+
+  .language-case {
+    width: 140px;
+    height: 64px;
+    font-size: 38px;
+    padding: 10px 26px;
+    img {
+      width: 30px;
+    }
   }
 }
