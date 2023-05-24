@@ -7,17 +7,23 @@
 
 .language-case {
   background-color: var(--orange);
-  width: 47px;
+  width: 60px;
   height: 22px;
   padding: 3px 10px;
   border-radius: 32px;
   color: var(--backgroundcolor);
   font-size: 16px;
   font-weight: 600;
-}
-
-.language-case img {
-  max-width: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  top: 90;
+  right: 20;
+  z-index: 2;
+  img {
+    width: 14px;
+  }
 }
 
 .container-header {
@@ -29,9 +35,12 @@
   display: inline-block;
 }
 
+.logo-header {
+  margin-bottom: 40px;
+}
+
 .container-header img {
   max-width: 70px;
-  margin-bottom: 40px;
   max-width: 100px;
 }
 
@@ -57,7 +66,7 @@ hr {
   border-bottom: solid 1px var(--orange);
   text-align: center;
   color: var(--orange);
-  padding: 19px;
+  padding: 16px;
   font-size: 25px;
   font-weight: bold;
   cursor: pointer;
@@ -97,5 +106,9 @@ hr {
 
   .container-header {
     padding-top: 0;
+  }
+
+  .nav img {
+    margin-bottom: 85px;
   }
 }
