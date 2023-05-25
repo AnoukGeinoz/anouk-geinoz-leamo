@@ -14,7 +14,7 @@
 
 .language-case {
   background-color: var(--orange);
-  width: 60px;
+  width: 70px;
   height: 30px;
   padding: 6px 10px;
   border-radius: 32px;
@@ -24,6 +24,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   position: absolute;
   top: 90;
   right: 20;
@@ -120,12 +121,12 @@ hr {
   }
 
   .language-case {
-    width: 140px;
+    width: 160px;
     height: 64px;
     font-size: 38px;
     padding: 10px 26px;
     img {
-      width: 30px;
+      width: 40px;
     }
   }
 
